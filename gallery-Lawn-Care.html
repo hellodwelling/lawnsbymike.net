@@ -199,7 +199,35 @@
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Lawn Care</h2>
             <h2 class="my-3 mb-10 text-xl font-medium  text-green-400  text-center">Our Best Work</h2>
-            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [  ] }" @keydown.escape= "open = false"   >
+            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/7XDE27WSHANK6NK04RIDTVE9IEMGICL089YEY9I8.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/MSVYSMRGOHAII1DDRXRH7L9EY7ECET8FAXLM35DV.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/HN8C0J6OUX7I1U1NFZDEWAZXTZKA4CRUNWA045BP.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/XSMER7UTY3F04MGCOUZV1P2JIF21JIN3KCH8R5CQ.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/238ZT0TMQKSEDKQ6JT1LJ8HN8CG9L6LICW23KKCZ.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/UQ3BZAV020B0Q31OJIQXJ203R4R3DVIMB5RNHQHT.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/cd37299e-4b64-4786-aba0-63131c4b4a49.png', 'photo'],   ] }" @keydown.escape= "open = false"   >
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/7XDE27WSHANK6NK04RIDTVE9IEMGICL089YEY9I8.jpeg"  alt = "Photo number 1 of Lawns By Mike&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/MSVYSMRGOHAII1DDRXRH7L9EY7ECET8FAXLM35DV.jpeg"  alt = "Photo number 3 of Lawns By Mike&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/HN8C0J6OUX7I1U1NFZDEWAZXTZKA4CRUNWA045BP.jpeg"  alt = "Photo number 4 of Lawns By Mike&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/XSMER7UTY3F04MGCOUZV1P2JIF21JIN3KCH8R5CQ.jpeg"  alt = "Photo number 5 of Lawns By Mike&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/238ZT0TMQKSEDKQ6JT1LJ8HN8CG9L6LICW23KKCZ.jpeg"  alt = "Photo number 2 of Lawns By Mike&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/UQ3BZAV020B0Q31OJIQXJ203R4R3DVIMB5RNHQHT.jpeg"  alt = "Photo number 6 of Lawns By Mike&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/342x240/media/cd37299e-4b64-4786-aba0-63131c4b4a49.png"  alt="photo of best work"   loading="lazy" ></div>
+                    
                  
                                     
         
